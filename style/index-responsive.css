@@ -1,0 +1,14 @@
+@media screen and (max-width:577px) {
+  .nav-container{
+    flex-direction: column;
+  }
+  .nav-icon-container{
+    flex-direction: column;
+  }
+  .nav-details{
+    flex-direction: column;
+  }
+  .goat-container{
+    flex-direction: column;
+  }
+}

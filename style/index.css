@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* navber section  */
+nav{
+  background: #FFFFFF;
+}
+.nav-container{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+.nav-icon-container{
+  /* border: 1px solid aqua; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+h1{
+  width: 147px;
+  height: 53px;
+  font-size: 45px;
+  font-family: "Work Sans", sans-serif;
+  color: #0B0223;
+}
+.nav-title-img{
+  width: 86.4px;
+  height: 40px;
+}
+.nav-details{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.nav-details li{
+list-style: none;
+}
+.nav-details  a{
+  text-decoration: none;
+}
+.nav-container button{
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+/* nav-section end  */
+/* goat section :start */
+.goat-container{
+    /* border: 2px solid red; */
+    margin-top: 19px; 
+   display: flex;
+   justify-content:center;
+   gap:68px ;
+   align-items: center;
+   font-family: "Work Sans", sans-serif;
+}
+.goat-description{
+  text-align: center;
+  
+}
+h3{
+  font-size: 48px;
+}
+h2{
+  font-size: 95px;
+  color:orchid ;
+}
+.button{
+  margin-top: 30px;
+}
+.btn-primary{
+width: 146px;
+height: 55px;
+font-size: 20px;
+background: #4EC5F7;
+border-radius: 20px;
+color: #FFFFFF;
+border: 1px solid white;
+}
+.btn-second{
+  width: 146px;
+height: 55px;
+font-size: 20px;
+background: #4EC5F7;
+border-radius: 20px;
+color: #FFFFFF;
+border: 1px solid white;
+}
+/* gamer section  */
+.gamer-container{
+   /* border: 2px solid red; */
+   margin-top: 19px; 
+   display: flex;
+   justify-content:space-around;
+   gap:68px ;
+   align-items: center;
+   font-family: "Work Sans", sans-serif;
+}
+.gamer-photo{
+  width: 50%;
+  /* border: 1px solid #ff0000; */
+  display: flex;
+  justify-content: center;
+}
+.gamer-description{
+  width: 50%;
+  /* border: 1px solid aqua; */
+  text-align: center;
+  padding-right: 350px;
+}
+
+.gamer-description h4{
+  font-size: 48px;
+  color: rgb(188, 112, 218);
+  margin-bottom: 24px;
+
+}
+.gamer-description button{
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.btn-title{
+  font-size: 25px;
+}
+.btn-title span{
+  font-size: 20px;
+}
+/* gamer section end  */
+
